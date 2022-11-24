@@ -37,10 +37,10 @@ const handleChangeMyDate = (e)=>{
 const ValidBirthInfo = () => { 
     return(
         <>
-        <motion.div animate={{scale:1}} initial={{scale: anim? 0: 1}} transition={{type:'twin', duration: 2}}>
+        <motion.div animate={{scale:1}} initial={{scale: anim? 0: 1}} transition={{type:'twin', duration: 1}}>
         {/* <motion.div animate={{scale:1}} initial={{scale: 0}}> */}
         <p>Urodziłeś się: {myDate}</p>
-        <h2>Twoja liczba to: {number}</h2>
+        <p>Twoja liczba to: <motion.h2 animate={{rotate: anim? 720: 0}} transition={{duration:2}}>{number}</motion.h2></p>
         <p>{numerologic}</p>
         {/* <p>{numerologicR}</p> */}
         {/* <motion.div animate={{x:100}}>Testowa animacja</motion.div> */}

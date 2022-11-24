@@ -25,7 +25,7 @@ const Nav = ({refPersonal, refNum1, refNum2, refNum3, refNum4, refNum5, refNum6,
 
     return (
         <div className='navWrapper siteComponent'>
-            <h1 className='siteName'>N</h1>
+            <h1 className='siteName'>Numezo</h1>
             {navElementComponents}
         </div>
     );

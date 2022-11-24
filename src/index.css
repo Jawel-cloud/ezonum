@@ -32,7 +32,7 @@ h1{
   font-size: 4rem;
 }
 h2{
-  font-size: 3rem;
+  font-size: 4rem;
 }
 h3{
   font-size: 2.5rem;
@@ -59,7 +59,7 @@ p{
 .siteName {
   font-family: 'UnifrakturMaguntia', cursive;
   font-size: 2rem;
-  color: rgb(255, 255, 255);
+  color: rgb(31, 199, 148);
 }
 
 .nav-buttons-btn{
@@ -74,27 +74,10 @@ p{
 }
 
 .personalWrapper{
-  padding: 25vh 0;
+  padding: 20vh 0;
   
-}
+} 
 
-@keyframes appear {
-  0% {
-      color: transparent;
-  }
-  100%{
-    color: white;
-  }
-}
-/* .validInfo{
-  animation: appear 3s linear 1;
-} */
-.invalidInfo{}
-  
-
-.numerologicWrapper{
-  /* height: 50vh; */
-}
 .numComponent{
   padding: 12vh 0;
 }
