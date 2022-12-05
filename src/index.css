@@ -18,6 +18,16 @@ code {
     monospace;
 }
 
+@keyframes vortex {
+  0% {
+      transform: rotateY(0deg);
+  }
+
+  100% {
+      transform: rotateY(360deg);
+  }
+}
+
 .siteWrapper{
   text-align: center;
   position: relative;
@@ -33,6 +43,8 @@ h1{
 }
 h2{
   font-size: 4rem;
+  color: rgb(31, 199, 148);
+  text-shadow: 2px 2px 2px white;
 }
 h3{
   font-size: 2.5rem;
@@ -60,6 +72,9 @@ p{
   font-family: 'UnifrakturMaguntia', cursive;
   font-size: 2rem;
   color: rgb(31, 199, 148);
+  text-shadow: 2px 2px 2px white;
+  animation: vortex 10s linear infinite;
+  animation-fill-mode: both;
 }
 
 .nav-buttons-btn{
@@ -70,7 +85,7 @@ p{
   color: rgb(255, 255, 255);
 }
 .nav-buttons-btn:hover{
-  color: rgb(94, 94, 94);
+  color: rgb(31, 199, 148);
 }
 
 .personalWrapper{
@@ -94,11 +109,19 @@ p{
   font-family: 'UnifrakturMaguntia', cursive;
   font-size: 3rem;
   color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+#buttonBirth:hover{
+  color: rgb(31, 199, 148);
 }
 ::-webkit-calendar-picker-indicator {
   filter: invert(1);
   margin-left: -70px;
+  cursor: pointer;
 }
+/* ::-webkit-calendar-picker-indicator:hover {
+  color: rgb(31, 199, 148);
+} */
 
 @media (max-width: 1100px) {
   .siteWrapper{
